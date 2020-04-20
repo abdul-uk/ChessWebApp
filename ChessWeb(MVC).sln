@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessWeb(MVC)", "ChessWeb(MVC)\ChessWeb(MVC).csproj", "{BA59A996-64D3-46CC-ADBA-5B1D50099377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA59A996-64D3-46CC-ADBA-5B1D50099377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA59A996-64D3-46CC-ADBA-5B1D50099377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA59A996-64D3-46CC-ADBA-5B1D50099377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA59A996-64D3-46CC-ADBA-5B1D50099377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {070586EF-73A6-4221-AC92-76A54BAE5255}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,155 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    min-width: 700px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 400px;
+}
+
+/* Set padding to display errors that occur during databinding */
+.padding-error {
+    padding-top: 20px;
+}
+
+#FenInDiv {
+    position: relative;
+    left: 60px;
+}
+
+#fenIn {
+    width: 100%;
+    left: 60px;
+}
+
+#GameContainer {
+    width: 100%;
+}
+
+#Board {
+    position: relative;
+    top: 10px;
+    left: 80px;
+    width: 484px;
+    height: 484px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#EngineOutput {
+    /*margin-top:3%;*/
+    width: 30%;
+}
+
+#EngineSetting {
+    margin-top: 3%;
+}
+
+.Square {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.Dark {
+    /*background-color:#5fbcd3;*/
+    background-image: url(../Images/DarkSquare.png)
+}
+
+.Light {
+    /*background-color:#afdde9;*/
+    background-image: url(../Images/LightSquare.png)
+}
+
+.SqSelected {
+    background-image: none;
+    background-color: #525151;
+}
+
+.rank1 {
+    top: 420px;
+}
+
+.rank2 {
+    top: 360px;
+}
+
+.rank3 {
+    top: 300px;
+}
+
+.rank4 {
+    top: 240px;
+}
+
+.rank5 {
+    top: 180px;
+}
+
+.rank6 {
+    top: 120px;
+}
+
+.rank7 {
+    top: 60px;
+}
+
+.rank8 {
+    top: 0px;
+}
+
+.file1 {
+    left: 0px;
+}
+
+.file2 {
+    left: 60px;
+}
+
+.file3 {
+    left: 120px;
+}
+
+.file4 {
+    left: 180px;
+}
+
+.file5 {
+    left: 240px;
+}
+
+.file6 {
+    left: 300px;
+}
+
+.file7 {
+    left: 360px;
+}
+
+.file8 {
+    left: 420px;
+}
+
+.Piece {
+    position: absolute;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
