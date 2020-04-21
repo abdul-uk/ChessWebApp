@@ -1,7 +1,10 @@
 # ChessWebApp
 Web-based chess engine using search trees algorithm along with AlphBeta-pruning.
 
+For more information about the application please have a look at the report.
 
+Running the application
+-----------------------------------------
 To run the app:
 - Open the Solution
 - Compile the the project
